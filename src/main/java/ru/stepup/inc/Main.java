@@ -30,10 +30,10 @@ public class Main {
             System.out.println(e);
         }
 
+        System.out.println(d1.getHeadOffice());
+
         System.out.println(e1);
-        System.out.println(e2);
-        System.out.println(e3);
-
-
+//        System.out.println(e2);
+//        System.out.println(e3);
     }
 }

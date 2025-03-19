@@ -29,7 +29,7 @@ public class Department {
     }
 
     public Employee getHeadOffice() {
-        return headOffice;
+        return new Employee(this.headOffice.getName());
     }
 
     public List<Employee> getEmps() {

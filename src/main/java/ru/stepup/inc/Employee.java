@@ -21,7 +21,7 @@ public class Employee {
         if (this.dep == null) {
             this.dep = dep;
             dep.addEmps(this);
-        } else if (this.dep != null) {
+        } else {
             if (this.dep.getHeadOffice().equals(this)) {
                 throw new IllegalArgumentException("Начальник отдела всегда работает в том отделе, где он начальник");
             }
@@ -30,7 +30,6 @@ public class Employee {
             this.dep = dep;
             dep.addEmps(this);
         }
-
     }
 
     @Override
